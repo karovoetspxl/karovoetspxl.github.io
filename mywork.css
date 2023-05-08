@@ -6,7 +6,7 @@
     font-family: "Lato", sans-serif;
 }
 body {
-    background-image: url("../assets/Achtergrond mywork.png");
+    background-image: url("assets/Achtergrond mywork.png");
     background-size: 100%;
 }
 nav {
@@ -71,7 +71,7 @@ section img {
 }
 @media screen and (max-width: 1170px) {
     body {
-        background-image: url("../assets/Achtergrond_work_tablet.png");
+        background-image: url("assets/Achtergrond_work_tablet.png");
     }
     nav {
         padding: 40px 100px;
@@ -95,7 +95,7 @@ section img {
 }
 @media screen and (max-width: 645px) {
     body {
-        background-image: url("../assets/Achtergond_work_phone.png");
+        background-image: url("assets/Achtergond_work_phone.png");
     }
     nav {
         padding: 40px 0 0 45px;

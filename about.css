@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../assets/Achtergrond about.png");
+    background-image: url("assets/Achtergrond about.png");
     background-size: 100%;
 }
 
@@ -67,7 +67,7 @@ main section article img {
 }
 @media screen and (max-width: 1170px) {
     body {
-        background-image: url("../assets/Achtergrond_about_tablet.png");
+        background-image: url("assets/Achtergrond_about_tablet.png");
     }
     nav {
         padding: 40px 100px;
@@ -94,7 +94,7 @@ main section article img {
 }
 @media screen and (max-width: 645px) {
     body {
-        background-image: url("../assets/Achtergrond_about_phone.png");
+        background-image: url("assets/Achtergrond_about_phone.png");
     }
     nav {
         padding: 40px 0 0 45px;

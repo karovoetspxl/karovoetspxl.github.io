@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../assets/Achtergrond mywork page.png");
+    background-image: url("assets/Achtergrond mywork page.png");
     background-size: 100%;
 }
 
@@ -111,7 +111,7 @@ main section a:hover {
 }
 @media screen and (max-width: 1065px) {
     body {
-        background-image: url("../assets/Achtergrond_workpage_tablet.png");
+        background-image: url("assets/Achtergrond_workpage_tablet.png");
     }
     nav {
         padding: 40px 100px;
@@ -140,7 +140,7 @@ main section a:hover {
 }
 @media screen and (max-width: 645px) {
     body {
-        background-image: url("../assets/Achtergrond_workpage_phone.png");
+        background-image: url("assets/Achtergrond_workpage_phone.png");
     }
     nav {
         padding: 40px 0 0 45px;
