@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-image: url("../assets/Achtergrond mywork page.png");
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 140px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #8f8f8f;
+}
+
+nav img {
+    width: auto;
+    height: 45px;
+}
+
+#work {
+    text-decoration: underline;
+}
+
+header {
+    margin: 5px 0 0 140px;
+}
+
+header h1 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: xxx-large;
+}
+
+#terug {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 17px;
+    width: 120px;
+    padding: 6px 15px;
+    text-align: center;
+}
+#terug:hover {
+    background-color: #4f4f4f;
+    border: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    width: 17%;
+    height: 310px;
+    background-color: #f6f2f2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px 30px;
+    justify-content: space-evenly;
+}
+
+main section h2 {
+    color: #000;
+}
+
+main section img {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+main section a {
+    background-color: #1D1D1D;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+main section a:hover {
+    background-color: #4f4f4f;
+}
+#project2-wpl h2 {
+    margin-top: 10px;
+}
+@media screen and (max-width: 1065px) {
+    body {
+        background-image: url("../assets/Achtergrond_workpage_tablet.png");
+    }
+    nav {
+        padding: 40px 100px;
+    }
+    header {
+        margin: 5px 0 0 100px;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    main section {
+        margin: 30px;
+        width: 400px;
+        height: 460px;
+    }
+    main section img {
+        height: 260px;
+    }
+    main section a {
+        padding: 20px 35px;
+    }
+    #project2-wpl h2 {
+        margin: 40px 0 30px 0;
+    }
+}
+@media screen and (max-width: 645px) {
+    body {
+        background-image: url("../assets/Achtergrond_workpage_phone.png");
+    }
+    nav {
+        padding: 40px 0 0 45px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: end;
+    }
+    nav ul li {
+        padding: 5px 20px;
+    }
+    header {
+        margin: 5px 0 0 45px;
+    }
+    main section {
+        margin: 30px;
+        width: 300px;
+        height: 360px;
+    }
+    main section img {
+        height: 200px;
+    }
+    main section a {
+        padding: 10px 25px;
+    }
+}

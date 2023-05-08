@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+}
+body {
+    background-image: url("../assets/Achtergrond mywork.png");
+    background-size: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 140px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 0 20px;
+}
+nav ul li a:hover {
+    color: #8f8f8f;
+}
+nav ul li a {
+    text-decoration: none;
+}
+nav img {
+    width: auto;
+    height: 45px;
+}
+#work {
+    text-decoration: underline;
+}
+.projecten {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f2f2;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    height: 270px;
+    width: 14.5%;
+}
+section a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1D1D1D;
+    padding: 12px 10px;
+    border-radius: 20px;
+    width: 170px;
+    font-size: 15px;
+    text-align: center;
+}
+section a:hover {
+    background-color: #4f4f4f;
+}
+section img {
+    width: 120px;
+    margin: 20px 0 40px 0;
+}
+@media screen and (max-width: 1170px) {
+    body {
+        background-image: url("../assets/Achtergrond_work_tablet.png");
+    }
+    nav {
+        padding: 40px 100px;
+    }
+    .projecten {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0px;
+    }
+    section {
+        width: 300px;
+        height: 350px;
+    }
+    section img {
+        width: 180px;
+    }
+    section a {
+        width: 230px;
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 645px) {
+    body {
+        background-image: url("../assets/Achtergond_work_phone.png");
+    }
+    nav {
+        padding: 40px 0 0 45px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: end;
+    }
+    nav ul li {
+        padding: 5px 20px;
+    }
+    section {
+        width: 220px;
+        height: 270px;
+    }
+    section img {
+        width: 120px;
+    }
+    section a {
+        width: 170px;
+        padding: 12px 10px;
+    }
+}

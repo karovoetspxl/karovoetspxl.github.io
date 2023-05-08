@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+header {
+    background-color: #1E90FF;
+    margin: 0 auto;
+    padding: 10px;
+    color: #FFFFFF;
+    width: 1200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+main {
+    border: 2px solid #1E90FF;
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+main article {
+    margin: 2%;
+    width: calc((100% / 3) - 4%); /*BLOK VERDEELD IN 3 STUKKEN EN DAN DE MARGIN ER NOG AF*/
+    border: 1px #CCC solid;
+    border-radius: 0.25rem;
+    padding: 1%;
+    display: flex;
+    flex-direction: column; /*overgebleven witruimte kunnen gebruiken in p*/
+}
+main article img {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+main article p.tekst { /*p voor de tekst, zodat je weet dat het in een p staat*/
+    flex: 1; /*Alle witruimte die over is mag je hebben, dus prijs staat naar onder want witruimte is toegekend aan de tekst*/
+}
+main article p.prijs {
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #1E90FF;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    /*position: absolute; HIER NIET GEBRUIKEN, WANT GEEN UITZONDERING*/
+}
+@media screen and (max-width: 1200px){
+    header, main {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+    }
+    header {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+header {
+    background-color: #1f272a;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.75rem;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+main section {
+    width: 50%;
+    padding: 2rem;
+}
+main section h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+main section h2 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+main section h3 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #534f4f;
+    text-align: center;
+}
+main section h4 {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+main #sectionleft #ingr-ben {
+    border: 2px solid #1f272a;
+    margin-top: 2rem;
+}
+main #sectionleft #ingr-ben h2{
+    text-align: center;
+}
+main #sectionleft #ingr-ben ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-bottom: 1px solid #1f272a;
+    padding: 1rem 0;
+    margin: 1rem;
+}
+main #sectionleft #ingr-ben ul li {
+    width: 48%;
+    margin: 1%;
+    padding: 0.5rem 0;
+    border-bottom: 1px dotted #ccc;
+}
+main #sectionleft #ingr-ben p {
+    margin: 1rem;
+}
+main #sectionleft ol {
+    list-style-position: outside; /*NUMMERS ERBUITEN KRIJGEN*/
+}
+main #sectionleft ol li {
+    margin: 0.5rem 2rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+main #sectionright img {
+    width: 100%;
+}
+main #sectionright article {
+    border: 1px dotted #ccc;
+    margin: 1rem 0;
+    display: flex;
+}
+main #sectionright article img {
+    width: 5rem;
+    margin-right: 1rem;
+}
+footer {
+    background-color: #1f272a;
+    text-align: center;
+    padding: 0.75rem;
+}
+footer h1 {
+    font-size: 1rem;
+    color: #fff;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+footer ul li a {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    color: #fff;
+}
+@media screen and (max-width: 1500px) {
+    main #sectionleft #ingr-ben ul li {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1200px) {
+    main {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 960px) {
+    main {
+        flex-direction: column;
+    }
+    main section {
+        width: 100%;
+    }
+    main #sectionright {
+        order: 1;
+    }
+    main #sectionleft {
+        order: 2;
+    }
+    main #sectionright h2, main #sectionright article {
+        display: none;
+    }
+}
