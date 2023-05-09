@@ -40,7 +40,9 @@ nav img {
     margin: 150px 140px;
 }
 #intro h1 {
-    font-family: "PT Serif", sans-serif;
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 #cv {
     margin-top: 250px;

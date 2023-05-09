@@ -65,6 +65,11 @@ main section article img {
 .sectie2 {
     margin: 0 100px 0 380px;
 }
+h1 {
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 @media screen and (max-width: 1170px) {
     body {
         background-image: url("assets/Achtergrond_about_tablet.png");
