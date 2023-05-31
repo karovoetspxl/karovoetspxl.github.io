@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/jyb6qri.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-reboot.min.css">
 </head>
 <body>
 <nav>
@@ -18,16 +20,37 @@
         <li id="contact"><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+
 <main>
-    <div id="intro">
-        <h1>Hallo, ik ben Karo Voets</h1>
-        <p>Welkom op mijn portfolio.</p>
-        <p>Ik kijk er naar uit om in contact te komen met u.</p>
-        <p>Als dit niet het geval is en ik zie u nooit meer terug,</p>
-        <p>dan wens ik u het beste toe.</p>
-    </div>
-    <div id="cv">
-        <a href="assets/Curriculum_Vitae_Karo_Voets.pdf" download="CURRICULUM_VITAE_Karo_Voets">Mijn CV</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 order-md-1 col-md-6 intro">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10 col-md-8">
+                        <h1>Hallo, ik ben Karo Voets</h1>
+                    </div>
+                    <div class="col-1 col-md-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <p>Welkom op mijn portfolio. Ik kijk er naar uit om in contact te komen met u. Als dit niet het geval is en ik zie u nooit meer terug, dan wens ik u het beste toe.</p>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row button_cv">
+                    <div class="col-1"></div>
+                    <div class="col-4 cv">
+                        <a href="assets/Curriculum_Vitae_Karo_Voets.pdf" download="CURRICULUM_VITAE_Karo_Voets">Mijn CV</a>
+                    </div>
+                    <div class="col-7"></div>
+                </div>
+            </div>
+            <div class="col-12 order-md-2 col-md-6">
+                <img id="ik" src="assets/mezelf.png" alt="Foto van mezelf">
+            </div>
+        </div>
     </div>
 </main>
 </body>
