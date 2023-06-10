@@ -9,35 +9,39 @@ body {
     background-image: url("assets/Achtergrond contact.png");
     background-size: cover;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 140px;
-}
-nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-nav ul li {
-    list-style-type: none;
-    padding: 0 20px;
-}
-nav ul li a {
-    text-decoration: none;
-}
-nav ul li a:hover {
-    color: #8f8f8f;
+
+/* NAVIGATIE */
+.navbar {
+    background-color: #2a2a2a;
+    position: fixed;
+    width: 100%;
 }
 
-nav img {
-    width: auto;
-    height: 45px;
+#nav {
+    width: 60px;
 }
 
-#contact {
-    text-decoration: underline;
+a {
+    text-align: right;
 }
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border: transparent;
+}
+
+.contactlink {
+    color: #cd2871;
+}
+
+/* MAIN */
 main h1 {
     border: 2px solid #FFF;
     padding: 20px 35px;
@@ -81,44 +85,10 @@ section p {
 .fa-linkedin:hover {
     color: #0a65c0;
 }
-@media screen and (max-width: 1050px) {
-    body {
-        background-image: url("assets/Achtergrond_contact_tablet.png");
-    }
-    nav {
-        padding: 40px 100px;
-    }
-    main h1 {
-        width: 400px;
-        font-size: 45px;
-    }
-    .icons {
-        flex-direction: column;
-        align-items: center;
-        margin: 25px 0;
-    }
-    section a {
-        font-size: 150px;
-    }
-}
-@media screen and (max-width: 645px) {
-    body {
-        background-image: url("assets/Achtergrond_contact_phone.png");
-        background-size: 100%;
-    }
-    nav {
-        padding: 40px 0 0 45px;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: end;
-     }
-    nav ul li {
-        padding: 5px 20px;
-    }
-    main h1 {
-        width: 300px;
-        font-size: 30px;
-        margin-top: 50px;
+
+/* MEDIAQUERRY */
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        padding-left: 45px;
     }
 }
