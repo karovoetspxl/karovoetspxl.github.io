@@ -45,38 +45,18 @@ a {
 }
 
 /* MAIN */
-.projecten {
-    display: flex;
-    justify-content: center;
+.top {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family: "larken", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
 
-}
-section {
-    display: flex;
-    flex-direction: column;
-    background-color: #f6f2f2;
-    margin: 15px;
-    padding: 20px;
-    align-items: center;
-    border-radius: 20px;
-    height: 270px;
-    width: 14.5%;
-}
-section a {
-    color: #fff;
-    text-decoration: none;
-    background-color: #1D1D1D;
-    padding: 12px 10px;
-    border-radius: 20px;
-    width: 170px;
-    font-size: 15px;
-    text-align: center;
-}
-section a:hover {
-    background-color: #4f4f4f;
-}
-section img {
-    width: 120px;
-    margin: 20px 0 40px 0;
+main img {
+    width: 100%;
 }
 
 /* FOOTER */
@@ -103,5 +83,12 @@ footer i:hover {
 @media screen and (min-width: 768px) {
     .navbar-brand {
         padding-left: 45px;
+    }
+    .top {
+        padding-top: 150px;
+        padding-bottom: 70px;
+    }
+    main {
+        padding-bottom: 200px;
     }
 }
