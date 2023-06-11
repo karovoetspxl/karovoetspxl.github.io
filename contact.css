@@ -15,6 +15,7 @@ body {
     background-color: #2a2a2a;
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 #nav {
@@ -46,48 +47,18 @@ a {
 }
 
 /* MAIN */
-main h1 {
-    border: 2px solid #FFF;
-    padding: 20px 35px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    margin: 0 auto;
+h1 {
     font-family: "larken", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 90px;
+
+.top {
+    margin-top: 100px;
 }
-section {
-    padding: 0 55px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-section a {
+
+main a {
     font-size: 100px;
-}
-section p {
-    padding-bottom: 15px;
-}
-.fa-envelope:hover {
-    color: #0fd8ec;
-}
-.fa-phone:hover {
-    color: #2eda29;
-}
-.fa-square-facebook:hover {
-    color: #1772e8;
-}
-.fa-instagram:hover {
-    color: #cd2871;
-}
-.fa-linkedin:hover {
-    color: #0a65c0;
 }
 
 /* FOOTER */
@@ -114,5 +85,8 @@ footer i:hover {
 @media screen and (min-width: 768px) {
     .navbar-brand {
         padding-left: 45px;
+    }
+    .top {
+        margin-top: 150px;
     }
 }
