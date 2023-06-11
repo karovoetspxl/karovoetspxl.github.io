@@ -29,6 +29,10 @@ a {
     color: #fff;
 }
 
+.nav-link:hover {
+    color: #818181;
+}
+
 .navbar-toggler:focus{
     box-shadow: none;
 }
@@ -72,6 +76,26 @@ h1 {
 .cv a:hover {
     background-color: #8f8f8f;
     color: #FFFFFF;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2a2a2a;
+    padding: 15px;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer a {
+    font-size: 25px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+footer i:hover {
+    color: #cd2871;
 }
 
 /* MEDIAQUERRY */
