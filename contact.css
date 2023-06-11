@@ -61,6 +61,26 @@ main a {
     font-size: 100px;
 }
 
+#email:hover {
+    color: #48aefd;
+}
+
+#phone:hover {
+    color: #11f511;
+}
+
+.fa-square-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #d62976;
+}
+
+.fa-linkedin:hover {
+    color: #0072b1;
+}
+
 /* FOOTER */
 footer {
     background-color: #2a2a2a;
@@ -88,5 +108,9 @@ footer i:hover {
     }
     .top {
         margin-top: 150px;
+        margin-left: 10px;
+    }
+    .icons {
+        margin-top: 100px;
     }
 }
