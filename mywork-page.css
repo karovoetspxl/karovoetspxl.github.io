@@ -53,6 +53,12 @@ h1 {
     font-style: normal;
 }
 
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
 main img {
     width: 100%;
     border-radius: 10px;
