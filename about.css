@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFF;
+    color: #037171;
     font-family: "Lato", sans-serif;
 }
 
 body {
-    background-image: url("assets/Achtergrond about.png");
-    background-size: 100%;
+    background-color: #e6fcfc;
 }
 
 /* NAVIGATIE */
 .navbar {
-    background-color: #2a2a2a;
+    background-color: #037171;
     position: fixed;
     width: 100%;
 }
@@ -43,7 +42,7 @@ a {
 }
 
 .aboutlink {
-    color: #cd2871;
+    color: #eea900;
 }
 
 /* MAIN */
@@ -64,7 +63,7 @@ img {
 
 /* FOOTER */
 footer {
-    background-color: #2a2a2a;
+    background-color: #037171;
     padding: 15px;
 }
 
@@ -78,8 +77,12 @@ footer a {
     text-align: center;
 }
 
+footer i{
+    color: #fff;
+}
+
 footer i:hover {
-    color: #cd2871;
+    color: #eea900;
 }
 
 /* MEDIAQUERRY */
