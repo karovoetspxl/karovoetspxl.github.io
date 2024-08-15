@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #037171;
+    color: #7ea694;
     font-family: "Lato", sans-serif;
 }
 body {
-    background-color: #fff;
+    background-color: #f5f4ef;
 }
 /* NAVIGATIE */
 .navbar {
-    background-color: #037171;
+    background-color: #7ea694;
     position: fixed;
     width: 100%;
 }
@@ -60,7 +60,7 @@ main img {
 
 /* FOOTER */
 footer {
-    background-color: #037171;
+    background-color: #7ea694;
     padding: 15px;
 }
 

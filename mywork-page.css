@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #037171;
+    color: #7ea694;
     font-family: "Lato", sans-serif;
 }
 body {
-    background-color: #e6fcfc;
+    background-color: #f5f4ef;
 }
 /* NAVIGATIE */
 .navbar {
-    background-color: #037171;
+    background-color: #7ea694;
     position: fixed;
     width: 100%;
     top: 0;
@@ -82,14 +82,14 @@ main .wpl_img:hover {
 
 .terug a {
     text-decoration: none;
-    background-color: #037171;
+    background-color: #7ea694;
     color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 .terug a:hover {
-    background-color: #044f4f;
+    background-color: #7ea694;
 }
 
 .guide {
@@ -110,7 +110,7 @@ main .wpl_img:hover {
 
 /* FOOTER */
 footer {
-    background-color: #037171;
+    background-color: #7ea694;
     padding: 15px;
 }
 
