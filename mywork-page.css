@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFF;
+    color: #037171;
     font-family: "Lato", sans-serif;
 }
 body {
-    background-image: url("assets/Achtergrond mywork.png");
-    background-size: 100%;
+    background-color: #e6fcfc;
 }
 /* NAVIGATIE */
 .navbar {
-    background-color: #2a2a2a;
+    background-color: #037171;
     position: fixed;
     width: 100%;
     top: 0;
@@ -43,7 +42,7 @@ a {
 }
 
 .worklink {
-    color: #cd2871;
+    color: #eea900;
 }
 
 /* MAIN */
@@ -83,14 +82,14 @@ main .wpl_img:hover {
 
 .terug a {
     text-decoration: none;
-    background-color: #FFFFFF;
-    color: #000;
+    background-color: #037171;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
 }
 
 .terug a:hover {
-    background-color: #8f8f8f;
+    background-color: #044f4f;
 }
 
 .guide {
@@ -111,7 +110,7 @@ main .wpl_img:hover {
 
 /* FOOTER */
 footer {
-    background-color: #2a2a2a;
+    background-color: #037171;
     padding: 15px;
 }
 
@@ -125,8 +124,12 @@ footer a {
     text-align: center;
 }
 
+footer i{
+    color: #fff;
+}
+
 footer i:hover {
-    color: #cd2871;
+    color: #eea900;
 }
 
 /* MEDIAQUERRY */
